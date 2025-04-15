@@ -7,7 +7,7 @@ const app = express();
 // Middleware for CORS and JSON parsing
 app.use(express.json());
 app.use(cors({
-  origin: ['https://yourfrontendurl.com', 'http://localhost:3000'],
+  origin: ['https://yourfrontendurl.com', 'http://localhost:3000','https://minilocation-loc.vercel.app/'],
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
